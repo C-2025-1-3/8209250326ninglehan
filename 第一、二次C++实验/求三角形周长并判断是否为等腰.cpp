@@ -3,18 +3,18 @@ using namespace std;
 int main()
 {
 	float x, y, z,c;
-	cout << "ÇëÊäÈëÈı½ÇĞÎµÄÈı±ß:" << endl;
+	cout << "è¯·è¾“å…¥ä¸‰è§’å½¢çš„ä¸‰è¾¹:" << endl;
 	cin >> x >> y >> z;
 	if (x + y > z && x + z > y && y + z > x && x - y < z && x - z < y && y - z < x)
 	{
 		c = x + y + z;
-		cout << "¸ÃÈı½ÇĞÎµÄÖÜ³¤Îª" << c << endl;
+		cout << "è¯¥ä¸‰è§’å½¢çš„å‘¨é•¿ä¸º" << c << endl;
 		if (x == y || y == z || x == z)
 		{
-			cout << "ÕâÊÇµÈÑüÈı½ÇĞÎ" << endl;
+			cout << "è¿™æ˜¯ç­‰è…°ä¸‰è§’å½¢" << endl;
 		}
-		else cout << "Õâ²»ÊÇµÈÑüÈı½ÇĞÎ" << endl;
+		else cout << "è¿™ä¸æ˜¯ç­‰è…°ä¸‰è§’å½¢" << endl;
 	}
-	else cout << "ÕâÈı±ß²»ÄÜ¹¹³ÉÈı½ÇĞÎ" << endl;
+	else cout << "è¿™ä¸‰è¾¹ä¸èƒ½æ„æˆä¸‰è§’å½¢" << endl;
 	return 0;
 }
