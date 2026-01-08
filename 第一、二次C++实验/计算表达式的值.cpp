@@ -3,22 +3,22 @@ using namespace std;
 int main()
 {
 	float x;
-	cout << "ÇëÊäÈëxµÄÖµ" << endl;
+	cout << "è¯·è¾“å…¥xçš„å€¼" << endl;
 	cin >> x;
 	if (x < 1 && x>0)
 	{
 		x = 3 - 2 * x;
-		cout << "½á¹ûÎª£º" << x << endl;
+		cout << "ç»“æžœä¸ºï¼š" << x << endl;
 	}
 	if (x >= 1 && x < 5) 
 	{
 		x = 2 / 4 * x + 1;
-		cout << "½á¹ûÎª:" << x << endl;
+		cout << "ç»“æžœä¸º:" << x << endl;
 	}
 	if (x >= 5 && x < 10)
 	{
 		x = x * x;
-		cout << "½á¹ûÎª:" << x << endl;
+		cout << "ç»“æžœä¸º:" << x << endl;
 	}
 	return 0;
 }
