@@ -6,13 +6,13 @@ int main()
 	unsigned int testUnint = 65534;//0xfffe   
 	cout << "output in unsigned int  type:" << testUnint << endl;//<<oct;         
 	cout << "output in char type:" << static_cast<char>(testUnint) << endl;
-	cout << "output in short type:" << static_cast<short>(testUnint) << endl;  //ÎªÊ²Ã´½á¹ûÎª-2£¿ ´ð£º·¢ÉúÒç³ö£¬shortµÄÈ¡Öµ·¶Î§Îª-32768~32767£¬65534³¬¹ý32767µÄ²¿·ÖÒç³öµ½-32768£¬½á¹ûÎª-2
+	cout << "output in short type:" << static_cast<short>(testUnint) << endl;  //ä¸ºä»€ä¹ˆç»“æžœä¸º-2ï¼Ÿ ç­”ï¼šå‘ç”Ÿæº¢å‡ºï¼Œshortçš„å–å€¼èŒƒå›´ä¸º-32768~32767ï¼Œ65534è¶…è¿‡32767çš„éƒ¨åˆ†æº¢å‡ºåˆ°-32768ï¼Œç»“æžœä¸º-2
 	cout << "output in int type:" << static_cast<int> (testUnint) << endl;
 	cout << "output in double type:" << static_cast<double>(testUnint) << endl;
 	cout << "output in double type:" << setprecision(4) << static_cast<double>(testUnint) << endl;
-	cout << "output in Hex unsigned int type:" << hex << testUnint << endl; //16½øÖÆÊä³ö	system("pause");
+	cout << "output in Hex unsigned int type:" << hex << testUnint << endl; //16è¿›åˆ¶è¾“å‡º	system("pause");
 
 
-	cout << "output in oct unsigned int type:" << oct << testUnint << endl; //8½øÖÆÊä³ö ½á¹ûÎª177776
+	cout << "output in oct unsigned int type:" << oct << testUnint << endl; //8è¿›åˆ¶è¾“å‡º ç»“æžœä¸º177776
 	return 0;
 }
