@@ -4,7 +4,7 @@ int main()
 {
 	int x, y;
 	int a = 0, b = 0, c = 0, d = 0;
-	cout << "ÇëÊäÈëÁ½¸öÕıÕûÊı£º" << endl;
+	cout << "è¯·è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°ï¼š" << endl;
 	cin >> x >> y;
 	a = x > y ? x : y;
 	b = x > y ? y : x;
@@ -14,9 +14,9 @@ int main()
 		a = b;
 		b = c;
 	}
-	cout << "×î´ó¹«Ô¼ÊıÊÇ£º" << b << endl;
+	cout << "æœ€å¤§å…¬çº¦æ•°æ˜¯ï¼š" << b << endl;
 	d = x * y / b;
-	cout << "×îĞ¡¹«±¶ÊıÊÇ£º" << d << endl;
+	cout << "æœ€å°å…¬å€æ•°æ˜¯ï¼š" << d << endl;
 	return 0;
 
 }
