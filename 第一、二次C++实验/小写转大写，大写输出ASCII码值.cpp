@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
 	char x;
-	cout << "ÇëÊäÈëÒ»¸ö×Ö·û" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦" << endl;
 	cin >> x;
 	if (x >= 'a' && x <= 'z') {
 		x = x - 32;
-		cout << "×ª»»ºóµÄ´óĞ´×Ö·û:" << x << endl;
+		cout << "è½¬æ¢åçš„å¤§å†™å­—ç¬¦:" << x << endl;
 	}
 	else {
 		int y = static_cast<int>(x) + 1;
-		cout << "¸Ã×Ö·ûµÄºó¼Ì×Ö·ûASCIIÂë£º" << y << endl;
+		cout << "è¯¥å­—ç¬¦çš„åç»§å­—ç¬¦ASCIIç ï¼š" << y << endl;
 	}
 	return 0;
 }
